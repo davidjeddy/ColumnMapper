@@ -1,0 +1,116 @@
+/* HTML element styles */
+hr {
+    box-shadow: 0px 0px 25px 0px #2392f3;
+}
+
+
+
+/* Input field styles */
+input{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4) inset, 0 -1px 0 rgba(0, 0, 0, 0.05) inset;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    color: #222222;
+    height: 24px;
+    padding: 0px 5px;
+}
+
+input::-webkit-input-placeholder {
+    color: #999999;
+}
+
+input:-moz-placeholder {
+    color: #999999;
+}
+
+input:focus {
+    box-shadow: 0 2px 0 #2392f3 inset, 0 -2px 0 #2392f3 inset, 2px 0 0 #2392f3 inset, -2px 0 0 #2392f3 inset, 0 0 4px rgba(35, 146, 243, 0.5);
+    outline: none;
+}
+
+select {
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4) inset, 0 -1px 0 rgba(0, 0, 0, 0.05) inset;
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-padding-start: 2px;
+    -webkit-user-select: none;
+    -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 1px solid #AAA;
+    color: #555;
+    font-size: inherit;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+/* Application level stylings */
+.clear {
+    clear:both;
+}
+
+.app_warning {
+    text-align:         center;
+    overflow:           hidden;
+    box-shadow:         0px 0px 10px 5px red;
+    background-color:   red;
+}
+
+
+
+/* title styles */
+#titles_container {
+	overflow:          hidden;
+    background-color:  #2392f3;
+    box-shadow:        0px 0px 15px 5px #2392f3;
+	margin:            15px 0px;
+	padding:           0px;
+	text-align:        center;
+    width:             100%;
+}
+
+
+
+/* Mapping group text & DDL */
+#map_group_div {
+    float: left;
+    margin:25px;
+}
+
+#map_group_text {
+    display: inline;
+}
+
+#map_group_ddl {
+    display: inline;
+}
+
+.row_title {
+    float:      left;
+    width:      12.5%;
+}
+
+.row_data {
+    float:      left;
+    padding:    0px 0.75%;
+    width:      11%;
+}
+
+.row_new_button, .row_del_button{
+    position:       relative;
+    top:            -4px;
+    cursor:         pointer;
+    text-align:     center;
+}

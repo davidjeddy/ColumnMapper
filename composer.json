@@ -1,0 +1,16 @@
+{
+    "name": "healthplan/834mapping",
+    "description": "Mapping fields between DB schemeas",
+    "license": "Share-alike",
+    "authors": [
+        {
+            "name": "David Eddy",
+            "email": "deddy@healthplan.com"
+        }
+    ],
+    "minimum-stability": "RC",
+    "require": {
+        "components/html5-boilerplate": "dev-master",
+        "frameworks/jquery": "1.9.*"
+    }
+}
