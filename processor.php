@@ -26,22 +26,22 @@ class database {
 	 * URL / IP of the DB to connect to
 	 * @var string
 	 */
-	private $address 	= "test-mysql01.healthplan.com";
+	private $address 	= "";
 	/**
 	 * Username to use when connecting
 	 * @var string
 	 */
-	private $username 	= "root2";
+	private $username 	= "";
 	/**
 	 * Password to use when connection
 	 * @var string
 	 */
-	private $password 	= "php5orbust";
+	private $password 	= "";
 	/**
 	 * DB to connect to when connection
 	 * @var  string
 	 */
-	private $db_name 	= "mapping_0.1";
+	private $db_name 	= ;
 	/**
 	 * title table
 	 * @var  string

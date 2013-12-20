@@ -1,0 +1,12 @@
+Requirements:
+php 5.3+, mysql 5+, composer (included), 
+
+Install:
+1) Change to working dir
+2) uncompress project into dir
+3) run "php composer.phar install"
+4) In your SQL RDBM, create the table that will be used.
+ - Use index.php's <form> fields as a guide.
+ - Will also need create, update, and delete fields in datetime format.
+6) Edit processor.php, enter in SQL connection data.
+5) Have fun.
